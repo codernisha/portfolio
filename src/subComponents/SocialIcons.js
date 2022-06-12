@@ -34,7 +34,7 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: 'spring', duration: 1, delay: 1 }}
             >
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/codebucks27" }}>
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/codernisha" }}>
                     <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
@@ -43,7 +43,7 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: 'spring', duration: 1, delay: 1.4 }}
             >
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://facebook.com/codebucks27" }}>
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://facebook.com/codernisha" }}>
                     <Facebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
