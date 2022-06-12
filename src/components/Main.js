@@ -22,9 +22,11 @@ background-position: center;
 h2,h3,h4,h5,h6{
   font-family:'Karla', sans-serif ;
   font-weight:500;
-}`
+}
+`
 
-const Container = styled.div`padding: 2rem;`
+const Container = styled.div`padding: 2rem
+`
 
 const Contact = styled(NavLink)`
 color: ${props => props.theme.text};
@@ -106,6 +108,18 @@ transition: all 1s ease;
     display: ${props => props.click ? 'none' : 'inline-block'};
     padding-top: 1rem;
 }
+@media (max-width: 30em){
+    width: ${props => props.click ? '80px' : '100px'};
+    height: ${props => props.click ? '80px' : '100px'};
+    top: ${props => props.click ? '' : '50%'};
+    left: ${props => props.click ? '' : '50%'};
+}
+@media (max-width: 50em){
+    top: ${props => props.click ? '90%' : ''};
+    left: ${props => props.click ? '90%' : ''};
+    width: ${props => props.click ? '80px' : '150px'};
+    height: ${props => props.click ? '80px' : '150px'};
+}
 `
 
 const DarkDiv = styled.div`
@@ -118,6 +132,14 @@ width: ${props => props.click ? '50%' : '0%'};
 height: ${props => props.click ? '100%' : '0%'};
 z-index:1;
 transition: height 0.5s ease, width 1s ease 0.5s;
+${props => props.click && `
+@media (max-width: 50em) {
+    height: 50%;
+    right: 0px;
+    width: 100%;
+    transition: width 0.5s ease 0s, height 1s ease 0.5s;
+}
+`}
 `
 
 const LOGODIV = styled(NavLink)`
