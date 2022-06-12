@@ -7,7 +7,7 @@
 This repository contains Final code for The Portfolio Website in ReactJS. <br />
 
 View Demo👇: <br />
-https://react-portfolio-sigma.vercel.app/ <br />
+https://nisha-portfolio.herokuapp.com/ <br />
 
 If you want to learn how to create it please follow below tutorial👇: <br /><br />
 https://youtu.be/jcohAIaSy2M <br />
@@ -22,12 +22,12 @@ all the animations showed in the demo.
 Also, I have used React Lazy loading to increase loading speed.
 
 ### Images of The Portfolio Website:
-![HOME](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Home.png)
-![Intro](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Intro.png)
-![Blog](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Blog.png)
-![Home Mobile](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Home-Mobile.png)
-![Intro Mobile](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Intro-Mobile.png)
-![Intro Blog](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Blog-Mobile.png)
+![HOME](https://github.com/codernisha/portfolio/blob/master/Portfolio%20Images/Home.png)
+![Intro](https://github.com/codernisha/portfolio/blob/master/Portfolio%20Images/Intro.png)
+![Blog](https://github.com/codernisha/portfolio/blob/master/Portfolio%20Images/Blog.png)
+![Home Mobile](https://github.com/codernisha/portfolio/blob/master/Portfolio%20Images/Home-Mobile.png)
+![Intro Mobile](https://github.com/codernisha/portfolio/blob/master/Portfolio%20Images/Intro-Mobile.png)
+![Intro Blog](https://github.com/codernisha/portfolio/blob/master/Portfolio%20Images/Blog-Mobile.png)
 
 
 ### Resources Used in This Project
